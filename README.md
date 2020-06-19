@@ -1,24 +1,14 @@
 # docker-ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Base Repo for Ruby on Rails Application running on Docker
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Clone this project
 
-* System dependencies
+Run `docker-compose run web rake db:create`
 
-* Configuration
+Run `docker-compose up`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Check in your browser if the application is running:
+`http://localhost:3000/`
